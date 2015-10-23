@@ -47,8 +47,11 @@ WHERE make_code = 'LAM';
 -- Time to complete : 39.3, 30 , 31.185
 
 -- Run a query to list all fields from all car_models in years between 2010 and 2015, and note the time somewhere (should have 78840 rows)
+SELECT *
+FROM car_models
+WHERE year BETWEEN 2010 AND 2015;
 
--- Time to complete :
+-- Time to complete : 95.8, 94.2, 94.4
 
 -- Run a query to list all fields from all car_models in the year of 2010, and note the time somewhere (should have 13140 rows)
 
